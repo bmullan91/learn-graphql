@@ -1,12 +1,24 @@
 {
   "name": "learn-graphql",
   "version": "1.0.0",
-  "description": "Learn Graphql",
+  "description": "Learn Graphql - a nodeschool workshop",
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bmullan91/learn-graphql"
+  },
+  "keywords": [
+    "graphql",
+    "lear graphql"
+    "learn-graphql",
+    "nodeschool",
+    "nodeschool graphql",
+    "graphql workshop"
+  ],
   "author": "Brian Mullan <bmullan91@gmail.com>",
   "license": "MIT",
   "dependencies": {

@@ -68,8 +68,7 @@ Include the name `learn-graphql` and the name of the challenge you're working on
 
 ## Get Involved
 
-Found an issue, is the documentation lacking in some areas? You can help out [TODO link goes here]()
-
+Found an issue, is the documentation lacking in some areas? You can help out [https://github.com/bmullan91/learn-graphql](https://github.com/bmullan91/learn-graphql)
 
 ## TODO
 
