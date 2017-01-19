@@ -36,6 +36,11 @@ Should return
 }
 ```
 
+## Install Dependencies
+
+1. Generate a package.json file: `npm init --yes`
+2. Install the required dependencies: `npm i --save express express-graphql graphql`
+
 ## Starter files
 
 1. Copy the following into a file called `server.js`
@@ -101,4 +106,4 @@ To test locally:
 
 1. Start the server via `node server.js`
 2. In a new terminal window paste the test curl command
-3. Alternatively include `graphiql: true` in the expressGraphql config `localhost:8000/graphiql` to explore the schema and run querys in your browser.
+3. Alternatively include `['/graphql', '/graphiql']` routes to the expressGraphql middleware then add `graphiql: true` in the expressGraphql config `localhost:8000/graphiql` to explore the schema and run queries in your browser.

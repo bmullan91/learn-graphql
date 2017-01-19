@@ -22,8 +22,8 @@ function rndport() {
 // set up the data file to be passed to the submission
 exercise.addSetup(function (mode, callback) {
 
-    this.submissionPort = rndport();
-    this.solutionPort = this.submissionPort + 1;
+    this.submissionPort = 8000; // prev rndport();
+    this.solutionPort = rndport(); //prev this.submissionPort + 1;
 
     this.submissionArgs = [this.submissionPort];
     this.solutionArgs = [this.solutionPort];
@@ -62,7 +62,7 @@ function query (mode) {
           headers: {
             'Content-Type': 'application/graphql'
           },
-          body: 'query { hello }'
+          body: 'query { hello(name: \"Brian\") }'
         }
 
         function error (err) {
